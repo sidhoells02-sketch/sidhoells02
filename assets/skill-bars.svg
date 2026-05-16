@@ -1,0 +1,63 @@
+<svg width="1200" height="270" viewBox="0 0 1200 270" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated learning progress bars</title>
+  <desc id="desc">Colorful animated progress bars for Python, Java, and Git learning.</desc>
+  <style>
+    .pulse { animation: pulse 2.2s ease-in-out infinite; }
+    @keyframes pulse {
+      0%, 100% { opacity: .55; }
+      50% { opacity: 1; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1200" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="python" x1="0" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3776AB"/>
+      <stop offset="1" stop-color="#FFD43B"/>
+    </linearGradient>
+    <linearGradient id="java" x1="0" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F97316"/>
+      <stop offset="1" stop-color="#EF4444"/>
+    </linearGradient>
+    <linearGradient id="git" x1="0" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="270" rx="22" fill="url(#card)"/>
+  <text x="70" y="62" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">Current Learning Stack</text>
+  <text x="70" y="96" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="18">Simple, honest progress. Still learning, still building.</text>
+
+  <g transform="translate(70 122)">
+    <text x="0" y="25" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Python</text>
+    <rect x="150" y="5" width="520" height="28" rx="14" fill="#1F2937"/>
+    <rect x="150" y="5" width="470" height="28" rx="14" fill="url(#python)">
+      <animate attributeName="width" from="0" to="470" dur="1.8s" fill="freeze"/>
+    </rect>
+    <text x="700" y="27" fill="#CBD5E1" font-family="Consolas, monospace" font-size="20">fundamentals</text>
+  </g>
+
+  <g transform="translate(70 170)">
+    <text x="0" y="25" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Java</text>
+    <rect x="150" y="5" width="520" height="28" rx="14" fill="#1F2937"/>
+    <rect x="150" y="5" width="400" height="28" rx="14" fill="url(#java)">
+      <animate attributeName="width" from="0" to="400" dur="1.8s" begin=".2s" fill="freeze"/>
+    </rect>
+    <text x="700" y="27" fill="#CBD5E1" font-family="Consolas, monospace" font-size="20">OOP basics</text>
+  </g>
+
+  <g transform="translate(70 218)">
+    <text x="0" y="25" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Git</text>
+    <rect x="150" y="5" width="520" height="28" rx="14" fill="#1F2937"/>
+    <rect x="150" y="5" width="260" height="28" rx="14" fill="url(#git)">
+      <animate attributeName="width" from="0" to="260" dur="1.8s" begin=".4s" fill="freeze"/>
+    </rect>
+    <text x="700" y="27" fill="#CBD5E1" font-family="Consolas, monospace" font-size="20">version control</text>
+  </g>
+
+  <circle class="pulse" cx="1080" cy="70" r="11" fill="#34D399"/>
+  <circle class="pulse" cx="1118" cy="70" r="11" fill="#FBBF24"/>
+  <circle class="pulse" cx="1156" cy="70" r="11" fill="#F472B6"/>
+</svg>

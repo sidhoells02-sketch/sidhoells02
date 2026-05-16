@@ -1,0 +1,86 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Musa Abdul Jabbar profile banner</title>
+  <desc id="desc">Animated dark profile banner for a beginner developer focused on Python and Java.</desc>
+  <style>
+    .float-a { animation: floatA 7s ease-in-out infinite; }
+    .float-b { animation: floatB 9s ease-in-out infinite; }
+    .scan { animation: scan 4s linear infinite; }
+    .dash { stroke-dasharray: 22 18; animation: dash 12s linear infinite; }
+    .cursor { animation: blink 1s steps(2, end) infinite; }
+    .fade { animation: fadeIn 1.2s ease both; }
+    @keyframes floatA {
+      0%, 100% { transform: translate(0, 0); opacity: .75; }
+      50% { transform: translate(22px, -18px); opacity: 1; }
+    }
+    @keyframes floatB {
+      0%, 100% { transform: translate(0, 0); opacity: .65; }
+      50% { transform: translate(-18px, 20px); opacity: .95; }
+    }
+    @keyframes scan {
+      from { transform: translateX(-260px); }
+      to { transform: translateX(1260px); }
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: -260; }
+    }
+    @keyframes blink {
+      0%, 45% { opacity: 1; }
+      46%, 100% { opacity: 0; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#080C16"/>
+      <stop offset="0.45" stop-color="#10233B"/>
+      <stop offset="1" stop-color="#2B1142"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="180" y1="70" x2="1040" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="0.5" stop-color="#FBBF24"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect x="24" y="24" width="1152" height="312" rx="22" fill="#0B1020" opacity="0.62"/>
+  <rect x="24" y="24" width="1152" height="312" rx="22" stroke="url(#neon)" stroke-width="2"/>
+
+  <g opacity="0.22">
+    <path d="M70 270 C230 200, 335 305, 500 225 S820 135, 1120 205" stroke="#60A5FA" stroke-width="3" class="dash"/>
+    <path d="M80 110 C260 165, 360 55, 540 125 S850 255, 1130 100" stroke="#FBBF24" stroke-width="3" class="dash"/>
+  </g>
+
+  <g class="float-a" filter="url(#glow)">
+    <circle cx="155" cy="92" r="42" fill="#60A5FA" opacity="0.45"/>
+    <circle cx="1030" cy="86" r="34" fill="#FBBF24" opacity="0.42"/>
+  </g>
+  <g class="float-b" filter="url(#glow)">
+    <circle cx="235" cy="270" r="38" fill="#34D399" opacity="0.34"/>
+    <circle cx="960" cy="265" r="52" fill="#F472B6" opacity="0.34"/>
+  </g>
+
+  <g class="scan" opacity="0.18">
+    <rect x="0" y="24" width="170" height="312" fill="#FFFFFF"/>
+  </g>
+
+  <g class="fade">
+    <text x="86" y="116" fill="#9CA3AF" font-family="Segoe UI, Arial, sans-serif" font-size="24" letter-spacing="5">BEGINNER DEVELOPER</text>
+    <text x="84" y="184" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">Musa Abdul Jabbar</text>
+    <text x="86" y="238" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="28">Learning Python and Java, one small project at a time</text>
+    <rect x="88" y="270" width="300" height="42" rx="21" fill="#111827" stroke="#374151"/>
+    <text x="112" y="298" fill="#FBBF24" font-family="Consolas, monospace" font-size="22">print("keep learning")</text>
+    <rect class="cursor" x="362" y="281" width="10" height="22" fill="#FBBF24"/>
+  </g>
+</svg>

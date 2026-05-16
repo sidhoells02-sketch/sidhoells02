@@ -1,59 +1,36 @@
-# Musa Abdul Jabbar
+<div align="center">
 
-```text
-+--------------------------------------------------+
-|                                                  |
-|   MUSA ABDUL JABBAR                              |
-|   Beginner Developer                             |
-|                                                  |
-|   Current focus: Python + Java                   |
-|   Goal: build small projects and grow honestly   |
-|                                                  |
-+--------------------------------------------------+
-```
+![Musa Abdul Jabbar animated profile banner](assets/profile-banner.svg)
 
-## Snapshot
+</div>
 
-| Area | Status |
+## About
+
+Saya masih di tahap awal sebagai developer. Fokus utama saya sekarang adalah Python dan Java, sambil membangun dasar pemrograman yang kuat lewat project kecil.
+
+![Animated learning progress bars](assets/skill-bars.svg)
+
+## Roadmap
+
+| Sekarang | Berikutnya |
 | --- | --- |
-| Level | Beginner |
-| Main focus | Python and Java |
-| Learning style | Build, review, fix, repeat |
-| Current goal | Strong programming fundamentals |
+| Python basics | File handling |
+| Java OOP basics | Project berbasis class |
+| Git dasar | Commit yang rapi |
+| Latihan logika | Problem solving rutin |
 
-## Current Skills
-
-```text
-Python  [####------] learning fundamentals
-Java    [###-------] learning OOP basics
-Git     [##--------] learning version control
-```
-
-## Learning Map
-
-```text
-Programming Basics
-  |
-  +-- Variables and data types
-  +-- Conditions and loops
-  +-- Functions
-  +-- Lists / arrays
-  +-- Error handling
-  +-- Object-oriented programming
-```
+![Animated learning loop](assets/learning-loop.svg)
 
 ## Starter Projects
 
-| Project | Purpose |
+| Project | Fokus |
 | --- | --- |
-| Calculator | Practice input, output, conditions |
-| Terminal notes app | Practice functions and file handling |
-| Simple data manager | Practice lists and basic CRUD logic |
-| Python exercises | Practice problem solving |
-| Java class project | Practice class, object, and method |
+| Calculator | Input, output, kondisi |
+| Terminal notes app | Function dan file handling |
+| Simple data manager | List dan CRUD dasar |
+| Python exercises | Logika dan problem solving |
+| Java class project | Class, object, method |
 
 ## Note
 
-This profile is intentionally simple. No external badges, no third-party stats, and no heavy visuals, so it stays fast, readable, and accessible.
-
-I am still learning, and this profile will grow with my progress.
+Visual di profil ini pakai file lokal dari repo, bukan badge atau statistik pihak ketiga.

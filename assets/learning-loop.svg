@@ -1,0 +1,50 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated learning loop</title>
+  <desc id="desc">A colorful build, review, fix, repeat learning loop.</desc>
+  <style>
+    .road { stroke-dasharray: 18 16; animation: road 8s linear infinite; }
+    .node { animation: node 2.4s ease-in-out infinite; transform-origin: center; }
+    .node:nth-of-type(2) { animation-delay: .25s; }
+    .node:nth-of-type(3) { animation-delay: .5s; }
+    .node:nth-of-type(4) { animation-delay: .75s; }
+    @keyframes road { to { stroke-dashoffset: -210; } }
+    @keyframes node {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.06); }
+    }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="0.55" stop-color="#172554"/>
+      <stop offset="1" stop-color="#3B0764"/>
+    </linearGradient>
+    <linearGradient id="line" x1="190" y1="130" x2="1010" y2="130" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="0.35" stop-color="#34D399"/>
+      <stop offset="0.7" stop-color="#FBBF24"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" rx="22" fill="url(#bg)"/>
+  <text x="70" y="58" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">Learning Loop</text>
+  <text x="70" y="91" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="18">Build small, understand the code, fix mistakes, repeat.</text>
+  <path class="road" d="M190 150 C350 75, 500 225, 620 150 S850 75, 1010 150" stroke="url(#line)" stroke-width="8" stroke-linecap="round"/>
+
+  <g class="node">
+    <rect x="94" y="128" width="180" height="64" rx="18" fill="#0F172A" stroke="#60A5FA"/>
+    <text x="136" y="168" fill="#E0F2FE" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Build</text>
+  </g>
+  <g class="node">
+    <rect x="340" y="62" width="180" height="64" rx="18" fill="#0F172A" stroke="#34D399"/>
+    <text x="382" y="102" fill="#DCFCE7" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Review</text>
+  </g>
+  <g class="node">
+    <rect x="620" y="158" width="180" height="64" rx="18" fill="#0F172A" stroke="#FBBF24"/>
+    <text x="682" y="198" fill="#FEF3C7" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Fix</text>
+  </g>
+  <g class="node">
+    <rect x="928" y="106" width="180" height="64" rx="18" fill="#0F172A" stroke="#F472B6"/>
+    <text x="976" y="146" fill="#FCE7F3" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Repeat</text>
+  </g>
+</svg>
