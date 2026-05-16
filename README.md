@@ -1,48 +1,59 @@
 # Musa Abdul Jabbar
 
-Hi, saya Musa. Saya masih di tahap awal sebagai developer dan saat ini fokus belajar pemrograman dengan Python dan Java.
+```text
++--------------------------------------------------+
+|                                                  |
+|   MUSA ABDUL JABBAR                              |
+|   Beginner Developer                             |
+|                                                  |
+|   Current focus: Python + Java                   |
+|   Goal: build small projects and grow honestly   |
+|                                                  |
++--------------------------------------------------+
+```
 
-Saya membuat profil ini sebagai catatan perjalanan belajar, tempat menyimpan project kecil, dan bukti perkembangan saya dari waktu ke waktu. Saya lebih memilih menulis apa yang benar-benar sedang saya pelajari daripada terlihat menguasai banyak hal tetapi belum siap dipakai.
+## Snapshot
 
-## Fokus Saat Ini
-
-- Memperkuat dasar pemrograman dengan Python.
-- Memahami Java, terutama konsep object-oriented programming.
-- Belajar menulis kode yang rapi, mudah dibaca, dan mudah diperbaiki.
-- Membangun project kecil untuk latihan logika dan pemecahan masalah.
-
-## Skill Yang Sedang Saya Gunakan
-
-| Bahasa | Status |
+| Area | Status |
 | --- | --- |
-| Python | Sedang dipelajari dan dipakai untuk latihan dasar, logika, dan project kecil |
-| Java | Sedang dipelajari untuk dasar pemrograman dan object-oriented programming |
+| Level | Beginner |
+| Main focus | Python and Java |
+| Learning style | Build, review, fix, repeat |
+| Current goal | Strong programming fundamentals |
 
-## Yang Sedang Saya Pelajari
+## Current Skills
 
-- Variable, tipe data, kondisi, dan perulangan.
-- Function dan modular code.
-- List, array, dan struktur data dasar.
-- Object-oriented programming.
-- Error handling dan debugging.
-- Git dan GitHub untuk menyimpan perubahan kode.
+```text
+Python  [####------] learning fundamentals
+Java    [###-------] learning OOP basics
+Git     [##--------] learning version control
+```
 
-## Target Project Awal
+## Learning Map
 
-Beberapa project kecil yang ingin saya bangun:
+```text
+Programming Basics
+  |
+  +-- Variables and data types
+  +-- Conditions and loops
+  +-- Functions
+  +-- Lists / arrays
+  +-- Error handling
+  +-- Object-oriented programming
+```
 
-- Program kalkulator sederhana.
-- Aplikasi catatan berbasis terminal.
-- Program manajemen data sederhana.
-- Latihan problem solving dengan Python.
-- Project Java sederhana menggunakan class dan object.
+## Starter Projects
 
-## Cara Saya Belajar
+| Project | Purpose |
+| --- | --- |
+| Calculator | Practice input, output, conditions |
+| Terminal notes app | Practice functions and file handling |
+| Simple data manager | Practice lists and basic CRUD logic |
+| Python exercises | Practice problem solving |
+| Java class project | Practice class, object, and method |
 
-Saya belajar dengan membuat project kecil, membaca ulang kode sendiri, lalu memperbaiki bagian yang masih berantakan. Tujuan saya bukan terlihat cepat, tetapi benar-benar paham dasar dan bisa naik level secara konsisten.
+## Note
 
-## Catatan
+This profile is intentionally simple. No external badges, no third-party stats, and no heavy visuals, so it stays fast, readable, and accessible.
 
-Profil ini sengaja dibuat sederhana tanpa gambar, badge, atau layanan statistik pihak ketiga agar tetap ringan, mudah dibuka, dan tidak bergantung pada layanan luar yang bisa error.
-
-Terima kasih sudah mampir.
+I am still learning, and this profile will grow with my progress.
